@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC 
+  "-//Hibernate/Hibernate Configuration DTD 3.0//EN" 
+  "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+  
+ <hibernate-configuration>
+  <session-factory>
+  
+  <!-- Driver -->
+  <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+  
+  <!-- Url -->
+  <property name="hibernate.connection.url">jdbc:mysql://localhost/hibernate</property>
+  
+  <!-- User -->
+  <property name="hibernate.connection.username">root</property>
+  
+  <!-- Password -->
+  <property name="hibernate.connection.password"></property>
+  
+  <!-- To log the query which hibernate uses -->
+  <property name="hibernate.show_sql">true</property>
+  
+  </session-factory>
+</hibernate-configuration>
