@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.sbrs.entities.Course;
 
-public interface CourseDAO extends JpaRepository<Course, Long>{
+public interface CourseDAO extends JpaRepository<Course, Long>{ // entity,primary key datatype
 
 }
