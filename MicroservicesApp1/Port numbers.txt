@@ -1,0 +1,8 @@
+Eureka server : 8761 (default)
+
+api-gateway : 8999
+
+user-service : 9001
+
+contact-service : 9002
+
